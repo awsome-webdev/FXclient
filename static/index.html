@@ -189,7 +189,7 @@
         const profile = getProfile();
         const profile_name = getProfileName();
         const user_id = getUserId();
-        const res = await fetch('http://awdv.dev/track', {
+        const res = await fetch('https://awdv.dev/track', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({site, user, screen, profile, profile_name, user_id})
